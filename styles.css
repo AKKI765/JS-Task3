@@ -1,0 +1,59 @@
+body{
+    background-color: brown;
+}
+
+
+.forms{
+    margin-left:400px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: aqua;
+}
+
+
+
+textarea {
+    resize: vertical;
+    width: 300px;
+    height: 100px;
+    vertical-align: top;
+}
+
+.n{
+    margin-left: 27px;
+}
+
+.e{
+    margin-left: 27px;
+}
+
+.w{
+    margin-left: 15px;
+}
+
+.m{
+    margin-left: 10px;
+}
+
+button{
+    margin-left: 75px;;
+}
+.error {
+    color: red;
+    
+  }
+	
+
+
+input:invalid{
+	border: 2px solid red;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid green;
+}
+
+ 
